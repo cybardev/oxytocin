@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="how loved i feel" />
+    <meta property="og:title" content="oxytocin" />
+    <meta property="og:description" content="how loved i feel" />
+    <meta name="twitter:title" content="oxytocin" />
+    <meta name="twitter:description" content="how loved i feel" />
+    <title>oxytocin</title>
+    <link
+      rel="icon"
+      href='data:image/svg+xml,&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"&gt;&lt;text y=".9em" font-size="90"&gt;💗&lt;/text&gt;&lt;/svg&gt;'
+    />
+    <link rel="stylesheet" href="https://unpkg.com/7.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="window glass active">
+    <header class="title-bar">
+      <h1 class="title-bar-text">oxytocin</h1>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize" id="minimize"></button>
+        <button aria-label="Maximize" id="maximize"></button>
+        <button aria-label="Close" id="close"></button>
+      </div>
+    </header>
+    <main class="window-body has-space">
+      <section>
+        <p>This is how good I feel these days:</p>
+        <div role="progressbar" class="animate">
+          <div style="width: 64%"></div>
+        </div>
+        <p>
+          Times you tried to close this window: <span id="close-count">0</span>
+        </p>
+      </section>
+    </main>
+    <footer class="status-bar">
+      <small class="status-bar-field">
+        ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        <a href="https://cybar.dev">@cybardev</a>. All Rights Reserved.
+      </small>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

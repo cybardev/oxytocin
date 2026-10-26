@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+  width: 100%;
+  touch-action: manipulation;
+}
+
+body.window.active {
+  margin-block: 40vh;
+  margin-inline: auto;
+  max-width: clamp(20rem, 60vw, 25rem);
+}
+
+h1.title-bar-text {
+  margin-block: 0;
+  font-size: 0.86rem;
+  padding-left: 0.25rem;
+  font-weight: normal;
+}
+
+.title-bar {
+  height: 1.32rem;
+}
+
+.text-center {
+  text-align: center;
+}
